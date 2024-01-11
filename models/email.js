@@ -19,7 +19,7 @@ const emailSchema = new Schema(
   {
     vendorID: String,
     batchID: String,
-    date: String,
+    date: Date,
     invoiceNumber: String,
     poNumber: String,
     siteID: String,
@@ -27,7 +27,7 @@ const emailSchema = new Schema(
     TransactionStatus: String,
     lineItems: [lineItemSchema],
     gpPoNumber: String,
-    dateReceived: String,
+    dateReceived: Date,
     emailDocType: String,
     keyArray: [String],
     glArray: [glSchema],

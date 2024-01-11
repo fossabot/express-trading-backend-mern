@@ -2,31 +2,31 @@ const express = require('express');
 const router = express.Router();
 const emailsCtrl = require('../../controllers/api/emails');
 
-// GET - '/api/emails/inbox'
+// GET - '/api/sales/inbox'
 router.get('/inbox', emailsCtrl.getInbox);
 
-// GET - '/api/emails/processed'
+// GET - '/api/sales/processed'
 router.get('/processed', emailsCtrl.getProcessed);
 
-// GET - '/api/emails/archived'
+// GET - '/api/sales/archived'
 router.get('/archived', emailsCtrl.getArchived);
 
-// GET - '/api/emails/:id'
+// GET - '/api/sales/:id'
 router.get('/:id', emailsCtrl.detail);
 
 // POST - '/api/emails'
 router.post('/', emailsCtrl.create);
 
-// POST - '/api/emails/export'
+// POST - '/api/sales/export'
 router.post('/export', emailsCtrl.exportEmails);
 
-// PUT - '/api/emails/:id'
+// PUT - '/api/sales/:id'
 router.put('/:id', emailsCtrl.editEmail);
 
-// POST - '/api/emails/archive'
+// POST - '/api/sales/archive'
 router.post('/archive', emailsCtrl.archiveEmails);
 
-// DELETE - '/api/emails/delete'
+// DELETE - '/api/sales/delete'
 router.delete('/delete', emailsCtrl.deleteEmails);
 
 module.exports = router;

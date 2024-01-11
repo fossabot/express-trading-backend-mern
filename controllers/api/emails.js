@@ -1,4 +1,6 @@
 const Email = require("../../models/email");
+const Item = require("../../models/item");
+const Vendor = require("../../models/vendor");
 
 module.exports = {
   create,
@@ -10,6 +12,12 @@ module.exports = {
   editEmail,
   deleteEmails,
   archiveEmails,
+  returnToInbox,
+  getItems,
+  getVendors,
+  addItem,
+  updateItem,
+  deleteItem,
 };
 
 async function create(req, res) {
@@ -42,7 +50,7 @@ async function exportEmails(req, res) {
     { _id: { $in: req.body } },
     { $set: { TransactionStatus: "Processed" } }
   );
-  res.redirect("/api/emails/inbox");
+  res.redirect("/api/processing/inbox");
 }
 
 async function editEmail(req, res) {
@@ -64,6 +72,46 @@ async function archiveEmails(req, res) {
     { _id: { $in: req.body } },
     { $set: { TransactionStatus: "Archived" } }
   );
-  res.redirect("/api/emails/inbox");
+  res.redirect("/api/processing/inbox");
 }
 
+async function returnToInbox(req, res) {
+  const updatedEmails = await Email.updateMany(
+    { _id: { $in: req.body } },
+    { $set: { TransactionStatus: "New" } }
+  );
+  res.redirect("/api/processing/inbox");
+}
+
+
+// Items
+async function getItems(req, res) {
+  const items = await Item.find({});
+  res.json(items);
+}
+
+async function addItem(req, res) {
+  const item = await Item.create(req.body);
+  res.redirect("/api/catalogue/items");
+}
+
+async function updateItem(req, res) {
+  const result = await Item.findByIdAndUpdate(req.params.id, req.body, {returnDocument: "after"});
+  console.log("REZZY", result);
+  const items = await Item.find({});
+  res.json(items);
+}
+
+async function deleteItem(req, res) {
+  const result = await Item.findByIdAndDelete(req.params.id);
+  console.log("REZZY", result);
+  const items = await Item.find({});
+  res.json(items);
+}
+
+
+// Vendors
+async function getVendors(req, res){
+  const items = await Vendor.find({});
+  res.json(items);
+}

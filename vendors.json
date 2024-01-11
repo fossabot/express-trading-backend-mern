@@ -1,0 +1,350 @@
+[{
+  "batchID": "BAYCLIFF",
+  "paymentTerms": "NET 10 DAYS 2%",
+  "discountRate": "0.02",
+  "palletCharge": "TRUE",
+  "docType": "SHIPMENT INVOICE",
+  "ID": "1565",
+  "name": "BAYCLIFF COMPANY",
+  "email": "BAYCLIFF.COM"
+},
+{
+  "batchID": "CHR",
+  "paymentTerms": "NET 60 DAYS",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "LOAD CONFIRMATION, FREIGHT INVOICE",
+  "ID": "1255",
+  "name": "C.H. ROBINSON WORLDWIDE, INC.",
+  "email": "CHROBINSON.COM"
+},
+{
+  "batchID": "CRA",
+  "paymentTerms": "NET 30 DAYS",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "SHIPMENT INVOICE",
+  "ID": "1895",
+  "name": "CRAZY GO NUTS",
+  "email": "CRAZYGONUTSWALNUTS.COM"
+},
+{
+  "batchID": "ES FOODS",
+  "paymentTerms": "COD",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "SHIPMENT INVOICE",
+  "ID": "1436",
+  "name": "ES FOODS INC.",
+  "email": "GEORGE.GATOR@GMAIL.COM"
+},
+{
+  "batchID": "ESTES",
+  "paymentTerms": "NET 30 DAYS",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "LOAD CONFIRMATION, FREIGHT INVOICE",
+  "ID": "1131",
+  "name": "ESTES EXPRESS LINES",
+  "email": "ESTES-EXPRESS.COM"
+},
+{
+  "batchID": "EB",
+  "paymentTerms": "NET 45  DAYS",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "ENTER MATCH",
+  "ID": "1",
+  "name": "EXTRAORDINARY BITES INC",
+  "email": "JACOB@EXPRESSTRADING.COM"
+},
+{
+  "batchID": "FOOD 4 LIFE",
+  "paymentTerms": "NET 30 DAYS",
+  "discountRate": "1",
+  "palletCharge": "FALSE",
+  "docType": "SHIPMENT INVOICE",
+  "ID": "1417",
+  "name": "FOOD FOR LIFE BAKING CO.",
+  "email": "FOODFORLIFE.COM"
+},
+{
+  "batchID": "GRAMIC",
+  "paymentTerms": "NET 30 DAYS",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "ENTER MATCH",
+  "ID": "1218",
+  "name": "GRAMIC ENTERPRISES, INC.",
+  "email": "GRAMICENTP@GMAIL.COM"
+},
+{
+  "batchID": "IMPORT",
+  "paymentTerms": "NET 15 DAYS",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "SHIPMENT INVOICE",
+  "ID": "1006",
+  "name": "IMPORT & EXPORT, INC.",
+  "email": "GSANCHEZ@SALSAVALENTINA.COM"
+},
+{
+  "batchID": "INTERAMERICANN",
+  "paymentTerms": "NET 10 DAYS 2%",
+  "discountRate": "0.02",
+  "palletCharge": "FALSE",
+  "docType": "SHIPMENT INVOICE",
+  "ID": "1188",
+  "name": "INTERAMERICAN FOODS CORP.",
+  "email": "TGMARKETING.COM"
+},
+{
+  "batchID": "JBH",
+  "paymentTerms": "NET 30 DAYS",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "LOAD CONFIRMATION, FREIGHT INVOICE",
+  "ID": "1108",
+  "name": "J.B. HUNT TRANSPORT, INC.",
+  "email": "NOREPLY@SG.JBHUNT.COM"
+},
+{
+  "batchID": "KLT",
+  "paymentTerms": "NET 30 DAYS",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "ENTER MATCH",
+  "ID": "1564",
+  "name": "KLT GLOBAL, LLC",
+  "email": "KLTGLOBAL.COM"
+},
+{
+  "batchID": "K.NAGEL",
+  "paymentTerms": "NET 30 DAYS",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "LOAD CONFIRMATION, FREIGHT INVOICE",
+  "ID": "1019",
+  "name": "KUEHNE + NAGEL, INC.",
+  "email": "KUEHNE-NAGEL.COM"
+},
+{
+  "batchID": "LEE KUM KEE",
+  "paymentTerms": "NET 60 DAYS",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "ENTER MATCH",
+  "ID": "1278",
+  "name": "LEE KUM KEE",
+  "email": "LKKUSA.COM"
+},
+{
+  "batchID": "LGM",
+  "paymentTerms": "COD",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "SHIPMENT INVOICE",
+  "ID": "1120",
+  "name": "LGM",
+  "email": "GEORGE.GATOR@GMAIL.COM"
+},
+{
+  "batchID": "MEGA",
+  "paymentTerms": "NET 15 DAYS",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "ENTER MATCH",
+  "ID": "1100",
+  "name": "MEGA FOODS",
+  "email": "MEGAALIMENTOS.COM"
+},
+{
+  "batchID": "NA TRADING",
+  "paymentTerms": "COD",
+  "discountRate": "0",
+  "palletCharge": "TRUE",
+  "docType": "SHIPMENT INVOICE",
+  "ID": "1214",
+  "name": "N.A. TRADING COMPANY",
+  "email": "NATRADINGCOMPANY.COM"
+},
+{
+  "batchID": "PADILLA",
+  "paymentTerms": "NET 10 DAYS 2%",
+  "discountRate": "0.02",
+  "palletCharge": "FALSE",
+  "docType": "SHIPMENT INVOICE",
+  "ID": "1122",
+  "name": "PADILLA IMPORT SALES & MARKETING, INC.",
+  "email": "PADILLAISM.COM"
+},
+{
+  "batchID": "RDS",
+  "paymentTerms": "NET 30 DAYS",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "LOAD CONFIRMATION, FREIGHT INVOICE",
+  "ID": "1151",
+  "name": "RDS LOGISTICS, INC.",
+  "email": "RDSLOGISTICS@ALJEX.DESCARTESSERVICES.COM"
+},
+{
+  "batchID": "RICHARDS FOODS",
+  "paymentTerms": "NET 30 DAYS",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "SHIPMENT INVOICE",
+  "ID": "1262",
+  "name": "RICHARDS FOODS, INC.",
+  "email": "RICHARDSFOODS@AOL.COM"
+},
+{
+  "batchID": "SAVIA",
+  "paymentTerms": "NET 15 DAYS",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "SHIPMENT INVOICE",
+  "ID": "10500",
+  "email": "SAVIAINTL.COM",
+  "name": "SAVIA INT'L CO., LTD"
+},
+{
+  "batchID": "SCHNEIDER",
+  "paymentTerms": "NET 30 DAYS",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "LOAD CONFIRMATION, FREIGHT INVOICE",
+  "ID": "1136",
+  "email": "HELMLEC@SCHNEIDER.COM",
+  "name": "SCHNEIDER NATIONAL"
+},
+{
+  "batchID": "SOOFER",
+  "paymentTerms": "NET 30 DAYS",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "ENTER MATCH",
+  "ID": "1549",
+  "email": "SADAF.COM",
+  "name": "SOOFER CO, INC. dba SADAF FOODS"
+},
+{
+  "batchID": "STONEWALL",
+  "paymentTerms": "1% NET 30 DAYS",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "ENTER MATCH",
+  "ID": "1560",
+  "email": "STONEWALLKITCHEN.COM",
+  "name": "STONEWALL KITCHEN, LLC"
+},
+{
+  "batchID": "STRAIGHTUPNUTS",
+  "paymentTerms": "NET 30 DAYS",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "SHIPMENT INVOICE",
+  "ID": "1860",
+  "email": "<quickbooks@notification.intuit.com>",
+  "name": "STRAIGHT UP NUTS INC"
+},
+{
+  "batchID": "STRUMBA",
+  "paymentTerms": "2% 10 NET 30 DAYS",
+  "discountRate": "0.02",
+  "palletCharge": "FALSE",
+  "docType": "ENTER MATCH",
+  "ID": "1123",
+  "email": "<quickbooks@notification.intuit.com>",
+  "name": "STRUMBA MEDIA LLC"
+},
+{
+  "batchID": "SUN HING",
+  "paymentTerms": "NET 30 DAYS",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "ENTER MATCH",
+  "ID": "1014",
+  "email": "SUNHINGFOODS.COM",
+  "name": "SUN HING FOODS, INC."
+},
+{
+  "batchID": "SUNSHINE",
+  "paymentTerms": "COD",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "SHIPMENT INVOICE",
+  "ID": "1179",
+  "email": "TRUSTKNNECT.COM",
+  "name": "SUNSHINE PATH, LLC"
+},
+{
+  "batchID": "TAPATIO",
+  "paymentTerms": "NET 10 DAYS 2%",
+  "discountRate": "0.02",
+  "palletCharge": "FALSE",
+  "docType": "ENTER MATCH",
+  "ID": "1099",
+  "email": "TAPATIOHOTSAUCE.COM",
+  "name": "TAPATIO FOODS, LLC"
+},
+{
+  "batchID": "TRADEWAY",
+  "paymentTerms": "NET 10 DAYS",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "ENTER MATCH",
+  "ID": "1465",
+  "email": "TRADEWAYINT.COM",
+  "name": "TRADEWAY INTERNATIONAL"
+},
+{
+  "batchID": "TRAFFIX",
+  "paymentTerms": "NET 30 DAYS",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "LOAD CONFIRMATION, FREIGHT INVOICE",
+  "ID": "1169",
+  "email": "DONOTREPLY@TRAFFIX.COM",
+  "name": "TRAFFIX USA INC."
+},
+{
+  "batchID": "WERNER",
+  "paymentTerms": "NET 30 DAYS",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "LOAD CONFIRMATION, FREIGHT INVOICE",
+  "ID": "1163",
+  "email": "BILLING@WERNER.COM",
+  "name": "WERNER ENTERPRISES INC."
+},
+{
+  "batchID": "WISMETTAC",
+  "paymentTerms": "NET 30 DAYS",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "ENTER MATCH",
+  "ID": "1275",
+  "email": "WISMETTACUSA.COM",
+  "name": "WISMETTAC ASIAN FOODS"
+},
+{
+  "batchID": "YIC",
+  "paymentTerms": "NET 30 DAYS",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "LOAD CONFIRMATION, FREIGHT INVOICE",
+  "ID": "1445",
+  "email": "YICLOGISTICS.COM",
+  "name": "YIC LOGISTICS, INC."
+},
+{
+  "batchID": "ZIYAD",
+  "paymentTerms": "NET 30 DAYS",
+  "discountRate": "0",
+  "palletCharge": "FALSE",
+  "docType": "SHIPMENT INVOICE",
+  "ID": "1550",
+  "email": "DFAXAGENT@ZIYAD.COM",
+  "name": "ZIYAD BROTHERS IMPORTING"
+}]

@@ -28,15 +28,15 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 // Put API routes here, before the "catch all" route
-app.use('/api/emails', require('./routes/api/emails'));
+app.use('/api/processing', require('./routes/api/processing'));
+app.use('/api/sales', require('./routes/api/sales'));
+app.use('/api/catalogue', require('./routes/api/catalogue'));
 
 // Configure to use port 3001 instead of 3000 during
 // development to avoid collision with React's dev server
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 7128;
 
 app.listen(port, function() {
   console.log(`Express app running on port ${port}`)
 });
-
-
 
